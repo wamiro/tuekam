@@ -1,0 +1,32 @@
+title: "Michel Romaric TUEKAM WABO"
+description: "Expert en gouvernance documentaire et gestion de l'information."
+author: "Michel Romaric TUEKAM WABO"
+email: "votre-email@example.com"
+url: "https://votre-nom-utilisateur.github.io/portfolio-blog"
+baseurl: ""
+theme: minima
+
+# Navigation
+nav_links:
+  - title: "Accueil"
+    url: "/"
+  - title: "À propos"
+    url: "/about"
+  - title: "Portfolio"
+    url: "/portfolio"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Contact"
+    url: "/contact"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+lang: "fr-FR"
